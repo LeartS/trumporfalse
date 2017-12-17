@@ -1,0 +1,122 @@
+@font-face {
+    font-family: "edgeicons";
+    src: url("https://abs.twimg.com/a/1510894702/font/edge-icons-Regular.woff") format("woff"),
+         url("https://abs.twimg.com/a/1510894702/font/edge-icons-Regular.ttf") format("truetype");
+}
+
+#container {
+    text-align: center;
+    width: 700px;
+    margin: auto;
+}
+
+.tweet-container {
+    text-align: left;
+    color: rgb(20, 23, 26);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    min-height: 51px;
+    position: relative;
+    width: 640px;
+    margin: auto;
+}
+
+.tweet {
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    margin: auto;
+}
+
+.tweet .content {
+    margin-left: 58px;
+}
+
+.tweet .content .permalink-header {
+    margin-bottom: 15px;
+}
+
+.tweet .content .permalink-header .name {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.tweet .content .permalink-header .UserBadges {
+    font-size: 0.9em;
+}
+
+.Icon--verified {
+    color: #1da1f2;
+}
+
+.Icon {
+    background: transparent;
+    display: inline-block;
+    font-style: normal;
+    vertical-align: baseline;
+    position: relative;
+}
+.Icon--verified::after {
+    content: "\f099";
+    line-height: 1;
+    position: relative;
+}
+.Icon::after, .Icon::before {
+    display: block;
+    font-family: "edgeicons";
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.Icon--verified::before {
+    color: #fff;
+}
+.Icon--verified::before {
+    content: "\f032";
+    font-size: .7em;
+    left: 26%;
+    line-height: 1;
+    position: absolute;
+    top: 20%;
+}
+
+.permalink-header .UserBadges .Icon {
+    padding-left: 4px;
+}
+
+.tweet .content .permalink-header .username {
+    font-size: 14px;
+	  color: #657786;
+}
+
+.tweet .content .avatar {
+    margin-left: -58px;
+    float: left;
+    height: 48px;
+    width: 48px;
+    border-radius: 50px;
+}
+
+.tweet .tweet-text {
+    color: rgb(20, 23, 26);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 27px;
+    letter-spacing: 0.266667px;
+    line-height: 32px;
+    margin: 0;
+}
+
+/* .answer { */
+/*     float: left; */
+/*     margin-right: 10px; */
+/*     height: 40px; */
+/*     width: 40px; */
+/*     border: 1px solid black; */
+/*     cursor: pointer; */
+/* } */
